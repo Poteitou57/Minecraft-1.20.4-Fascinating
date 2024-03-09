@@ -21,7 +21,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automated Change
-          file_pattern: saves/*
+          file_pattern: world/*
           repository: .
           commit_user_name: Poteitou57
           commit_user_email: 412155684@qq.com
