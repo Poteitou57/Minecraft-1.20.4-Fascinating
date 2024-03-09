@@ -18,3 +18,11 @@ jobs:
       - run:
           ./frpc -f v4y6pnjelz38oxc2:14269791,14269767 &
           ./run.sh
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Automated Change
+          file_pattern: saves/*
+          repository: .
+          commit_user_name: Poteitou
+          commit_user_email: 412155684@qq.com
+          commit_author: Poteitou
