@@ -15,5 +15,6 @@ jobs:
           java-version: '20'
       - run: dpkg --print-architecture
       - run: chmod -R 777 .
-      - run: ./frpc -f v4y6pnjelz38oxc2:14267195
-      - run: java -jar server.jar
+      - run: ./frpc -f v4y6pnjelz38oxc2:14267195 &
+      - run: java -jar server.jar &
+      - run: wait
