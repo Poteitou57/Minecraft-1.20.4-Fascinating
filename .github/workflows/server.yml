@@ -17,4 +17,4 @@ jobs:
           chmod -R 777 .
       - run:
           ./frpc -f v4y6pnjelz38oxc2:14269791,14269767 &
-          java -jar server.jar
+          ./run.sh
