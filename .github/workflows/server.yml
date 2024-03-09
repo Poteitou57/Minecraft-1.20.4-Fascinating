@@ -1,0 +1,15 @@
+name: Server
+
+on: []
+
+jobs:
+  launch:
+    name: Launch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Main
+        run:
+          echo 666
+    
+      
+    
