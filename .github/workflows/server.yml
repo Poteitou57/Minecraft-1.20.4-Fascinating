@@ -13,5 +13,5 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '20'
-      - run: sudo ./frpc -f v4y6pnjelz38oxc2:14267195
-      - run: sudo java -jar server.jar
+      - run: chomd +x ./frpc -f v4y6pnjelz38oxc2:14267195
+      - run: java -jar server.jar
