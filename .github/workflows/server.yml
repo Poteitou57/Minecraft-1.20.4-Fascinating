@@ -14,5 +14,5 @@ jobs:
           distribution: 'adopt'
           java-version: '20'
       - run: dpkg --print-architecture
-      - run: chmod 777 ./frpc -f v4y6pnjelz38oxc2:14267195
+      - run: sudo chmod 777 ./frpc -f v4y6pnjelz38oxc2:14267195
       - run: java -jar server.jar
