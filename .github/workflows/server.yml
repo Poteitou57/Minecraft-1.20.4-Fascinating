@@ -1,6 +1,6 @@
 name: Server
 
-on: []
+on: push
 
 jobs:
   launch:
