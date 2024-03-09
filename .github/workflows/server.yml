@@ -23,6 +23,6 @@ jobs:
           commit_message: Automated Change
           file_pattern: saves/*
           repository: .
-          commit_user_name: Poteitou
+          commit_user_name: Poteitou57
           commit_user_email: 412155684@qq.com
-          commit_author: Poteitou
+          commit_author: Poteitou57
