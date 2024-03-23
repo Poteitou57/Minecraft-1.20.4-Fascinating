@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "6eeffee0-b83e-359c-8608-d681ed61beea",
+    "name": "Poteitou",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
