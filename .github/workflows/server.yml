@@ -13,9 +13,12 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '20'
+      - run:
+          curl -s https://install.zerotier.com | sudo bash
       - run: 
           chmod -R 777 .
       - run:
+          ./zerotier-cli join 48d6023c464432ac
           ./frpc -f v4y6pnjelz38oxc2:14269791,14269767 &
           ./run.sh
       - uses: stefanzweifel/git-auto-commit-action@v5
