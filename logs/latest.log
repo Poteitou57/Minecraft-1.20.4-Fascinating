@@ -1,135 +1,140 @@
-[23Mar2024 12:57:44.275] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.196, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220]
-[23Mar2024 12:57:44.279] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 20.0.2 by Eclipse Adoptium; OS Linux arch amd64 version 6.5.0-1016-azure
-[23Mar2024 12:57:44.391] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[23Mar2024 12:57:44.427] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/fabricmc/sponge-mixin/0.13.0+mixin.0.8.5/sponge-mixin-0.13.0+mixin.0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
-[23Mar2024 12:57:44.541] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-13.0.121-neoforge.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
-[23Mar2024 12:57:44.542] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-6.0.3-forge.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
-[23Mar2024 12:57:44.542] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.15.0+mc1.20.4.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
-[23Mar2024 12:57:44.542] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "starlight-1.1.3+neoforge.2e9f705.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
-[23Mar2024 12:57:44.542] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voicechat-neoforge-1.20.4-2.5.9.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
-[23Mar2024 12:57:44.633] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.4-20231207.154220-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@44a2b17b
-[23Mar2024 12:57:44.633] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.196-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@44a2b17b
-[23Mar2024 12:57:44.725] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[23Mar2024 12:57:44.725] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@67427b69
-[23Mar2024 12:57:45.865] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Mar2024 12:57:45.909] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[23Mar2024 12:57:45.943] [main/WARN] [mixin/]: Reference map 'starlight.refmap.json' for starlight.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.963] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.965] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.967] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.969] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.971] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.972] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.973] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:45.974] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
-[23Mar2024 12:57:46.051] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.15.0+mc1.20.4: 66 options available, 0 override(s) found
-[23Mar2024 12:57:46.052] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[23Mar2024 12:57:46.060] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[23Mar2024 12:57:46.543] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[23Mar2024 12:57:47.363] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (4.851 s after launch)
-[23Mar2024 12:57:47.738] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[23Mar2024 12:57:47.739] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[23Mar2024 12:57:50.398] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3033 milliseconds
-[23Mar2024 12:57:50.462] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.196, for MC 1.20.4 with MCP 20231207.154220
-[23Mar2024 12:57:50.868] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[23Mar2024 12:57:50.905] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[23Mar2024 12:57:50.909] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[23Mar2024 12:57:50.909] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[23Mar2024 12:57:50.909] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[23Mar2024 12:57:51.020] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/neoforge/voicechat
-[23Mar2024 12:57:51.025] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23Mar2024 12:57:51.128] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[23Mar2024 12:57:51.194] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar%23134!/assets/.mcassetsroot' uses unexpected schema
-[23Mar2024 12:57:51.194] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar%23134!/data/.mcassetsroot' uses unexpected schema
-[23Mar2024 12:57:51.656] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.4-2.5.9 Target: null
-[23Mar2024 12:57:52.795] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23Mar2024 12:57:52.996] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[23Mar2024 12:57:53.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
-[23Mar2024 12:57:53.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23Mar2024 12:57:53.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23Mar2024 12:57:53.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Mar2024 12:57:53.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23Mar2024 12:57:53.189] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[23Mar2024 12:57:53.223] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23Mar2024 12:57:53.224] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23Mar2024 12:57:53.224] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23Mar2024 12:57:53.225] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23Mar2024 12:57:53.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23Mar2024 12:57:53.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Mar2024 12:57:54.618] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Mar2024 12:57:54.620] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Mar2024 12:57:54.620] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Mar2024 12:57:55.102] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[23Mar2024 12:57:55.503] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1901 ms
-[23Mar2024 12:57:55.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.268s)! For help, type "help"
-[23Mar2024 12:57:55.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
-[23Mar2024 12:57:55.506] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
-[23Mar2024 12:57:55.506] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
-[23Mar2024 12:57:55.527] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[23Mar2024 12:57:55.528] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[23Mar2024 12:57:55.535] [Server thread/WARN] [ModernFix/]: Dedicated server took 13.023 seconds to load
-[23Mar2024 12:57:55.536] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[23Mar2024 12:58:34.359] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
-[23Mar2024 12:58:52.886] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/127.0.0.1:47322] logged in with entity id 174 at (2.040932612074086, 69.0, -170.67249897401322)
-[23Mar2024 12:58:52.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
-[23Mar2024 12:58:53.218] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
-[23Mar2024 12:58:53.220] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
-[23Mar2024 12:59:34.609] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! -5.001434499514285,1.477157281096936,8.973414596089782
-[23Mar2024 12:59:39.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! -7.006819954154665,0.5340000212192564,8.202817754834442
-[23Mar2024 13:00:07.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! 7.749381105384593,-0.630385922154673,-7.212002855824551
-[23Mar2024 13:01:06.542] [Netty Epoll Server IO #3/ERROR] [net.minecraft.network.Connection/]: Exception caught in connection
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[23Mar2024 13:01:06.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
-[23Mar2024 13:01:06.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
-[23Mar2024 13:01:06.593] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
-[23Mar2024 13:01:16.532] [RCON Client /127.0.0.1 #2/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
-[23Mar2024 13:03:15.880] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/127.0.0.1:38196] logged in with entity id 744 at (28.387589145278348, 64.0, -187.31686633573426)
-[23Mar2024 13:03:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
-[23Mar2024 13:03:16.667] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
-[23Mar2024 13:03:16.668] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
-[23Mar2024 13:11:43.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! -0.18113874261292118,1.2062400479316722,-10.636141964944187
-[23Mar2024 13:11:54.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou has made the advancement [Monster Hunter]
-[23Mar2024 13:12:11.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Survival Mode]
-[23Mar2024 13:12:54.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Creative Mode]
-[23Mar2024 13:13:04.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! 1.8897462381170902,3.9387245965748434,9.140478797854854
-[23Mar2024 13:15:15.241] [Netty Epoll Server IO #7/ERROR] [net.minecraft.network.Connection/]: Exception caught in connection
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[23Mar2024 13:15:15.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
-[23Mar2024 13:15:15.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
-[23Mar2024 13:15:15.291] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
-[23Mar2024 13:30:15.966] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/127.0.0.1:59164] logged in with entity id 2540 at (7.136354186652094, 79.33632035354283, -155.66550730068897)
-[23Mar2024 13:30:16.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
-[23Mar2024 13:30:16.258] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
-[23Mar2024 13:30:16.260] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
-[23Mar2024 13:30:30.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! -1.0398086497135992,-10.597420325004123,1.4345287079899265
-[23Mar2024 13:30:52.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! -5.164867812639201,1.0121116670613617,9.200740551995139
-[23Mar2024 13:48:25.283] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: oooooooooo[/127.0.0.1:55044] logged in with entity id 4475 at (-57.5, 64.0, -69.5)
-[23Mar2024 13:48:25.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: oooooooooo joined the game
-[23Mar2024 13:48:25.966] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of oooooooooo (18)
-[23Mar2024 13:48:25.967] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to oooooooooo
-[23Mar2024 13:49:15.194] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: oooooooooo lost connection: Disconnected
-[23Mar2024 13:49:15.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: oooooooooo left the game
-[23Mar2024 13:49:15.196] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client oooooooooo
-[23Mar2024 13:49:39.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! 5.77639572643735,0.0,-8.589302438104767
-[23Mar2024 13:49:42.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou moved too quickly! 5.816052278497356,-8.25996095387498,-4.248584770890346
-[23Mar2024 13:50:41.236] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
-[23Mar2024 13:50:46.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou was killed
-[23Mar2024 13:50:46.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Killed 309 entities]
-[23Mar2024 13:50:54.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Killed 165 entities]
-[23Mar2024 13:53:43.438] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
-[23Mar2024 13:53:43.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
-[23Mar2024 13:53:43.439] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
-[23Mar2024 13:53:47.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]
-[23Mar2024 13:53:47.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23Mar2024 13:53:47.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23Mar2024 13:53:47.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23Mar2024 13:53:48.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23Mar2024 13:53:48.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23Mar2024 13:53:48.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23Mar2024 13:53:48.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23Mar2024 13:53:48.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Mar2024 13:53:48.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Mar2024 13:53:48.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23Mar2024 13:53:48.829] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
-[23Mar2024 13:53:48.830] [RCON Client /127.0.0.1 #3/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
-[23Mar2024 13:53:48.830] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 stopped
+[23Mar2024 14:10:04.317] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.196, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220]
+[23Mar2024 14:10:04.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 20.0.2 by Eclipse Adoptium; OS Linux arch amd64 version 6.5.0-1016-azure
+[23Mar2024 14:10:04.438] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Mar2024 14:10:04.479] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/fabricmc/sponge-mixin/0.13.0+mixin.0.8.5/sponge-mixin-0.13.0+mixin.0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
+[23Mar2024 14:10:04.589] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-13.0.121-neoforge.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
+[23Mar2024 14:10:04.589] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-6.0.3-forge.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
+[23Mar2024 14:10:04.589] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.15.0+mc1.20.4.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
+[23Mar2024 14:10:04.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "starlight-1.1.3+neoforge.2e9f705.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
+[23Mar2024 14:10:04.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "voicechat-neoforge-1.20.4-2.5.9.jar" of type MOD with provider {mods folder locator at /home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/mods}
+[23Mar2024 14:10:04.668] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.4-20231207.154220-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@7cc586a8
+[23Mar2024 14:10:04.668] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.196-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@7cc586a8
+[23Mar2024 14:10:04.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[23Mar2024 14:10:04.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@70ab80e3
+[23Mar2024 14:10:05.915] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Mar2024 14:10:05.944] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Mar2024 14:10:05.973] [main/WARN] [mixin/]: Reference map 'starlight.refmap.json' for starlight.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:05.993] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:05.994] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:05.996] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:05.998] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:06.000] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:06.001] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:06.002] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:06.003] [main/WARN] [mixin/]: Reference map 'ferritecore.refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Mar2024 14:10:06.092] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.15.0+mc1.20.4: 66 options available, 0 override(s) found
+[23Mar2024 14:10:06.093] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[23Mar2024 14:10:06.102] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[23Mar2024 14:10:06.585] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[23Mar2024 14:10:07.429] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (4.893 s after launch)
+[23Mar2024 14:10:07.824] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[23Mar2024 14:10:07.825] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[23Mar2024 14:10:10.767] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3335 milliseconds
+[23Mar2024 14:10:10.834] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.196, for MC 1.20.4 with MCP 20231207.154220
+[23Mar2024 14:10:11.249] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[23Mar2024 14:10:11.283] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[23Mar2024 14:10:11.287] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[23Mar2024 14:10:11.288] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[23Mar2024 14:10:11.288] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[23Mar2024 14:10:11.407] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23Mar2024 14:10:11.411] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/neoforge/voicechat
+[23Mar2024 14:10:11.513] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[23Mar2024 14:10:11.583] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar%23134!/assets/.mcassetsroot' uses unexpected schema
+[23Mar2024 14:10:11.584] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/runner/work/Minecraft-1.20.4-Fascinating/Minecraft-1.20.4-Fascinating/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar%23134!/data/.mcassetsroot' uses unexpected schema
+[23Mar2024 14:10:12.342] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.4-2.5.9 Target: null
+[23Mar2024 14:10:13.378] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Mar2024 14:10:13.556] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[23Mar2024 14:10:13.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
+[23Mar2024 14:10:13.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Mar2024 14:10:13.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Mar2024 14:10:13.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Mar2024 14:10:13.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Mar2024 14:10:13.798] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Mar2024 14:10:13.824] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Mar2024 14:10:13.824] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Mar2024 14:10:13.824] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Mar2024 14:10:13.824] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Mar2024 14:10:13.861] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Mar2024 14:10:14.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Mar2024 14:10:15.378] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2024 14:10:15.379] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2024 14:10:15.379] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2024 14:10:15.683] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[23Mar2024 14:10:16.160] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1978 ms
+[23Mar2024 14:10:16.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.330s)! For help, type "help"
+[23Mar2024 14:10:16.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[23Mar2024 14:10:16.163] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[23Mar2024 14:10:16.163] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
+[23Mar2024 14:10:16.190] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[23Mar2024 14:10:16.190] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[23Mar2024 14:10:16.198] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[23Mar2024 14:10:16.198] [Server thread/WARN] [ModernFix/]: Dedicated server took 13.663 seconds to load
+[23Mar2024 14:16:36.002] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@4b121273[id=6eeffee0-b83e-359c-8608-d681ed61beea,name=Poteitou,properties={}] lost connection: Disconnected
+[23Mar2024 14:16:45.902] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/172.27.180.11:54242] logged in with entity id 115 at (-62.5, 63.0, -87.5)
+[23Mar2024 14:16:45.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
+[23Mar2024 14:16:46.168] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
+[23Mar2024 14:16:46.169] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
+[23Mar2024 14:16:46.564] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:16:47.564] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:16:47.567] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Poteitou (6eeffee0-b83e-359c-8608-d681ed61beea) successfully connected to voice chat
+[23Mar2024 14:17:04.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Survival Mode]
+[23Mar2024 14:17:14.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Creative Mode]
+[23Mar2024 14:19:12.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Survival Mode]
+[23Mar2024 14:19:14.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 1.0 damage to Poteitou]
+[23Mar2024 14:19:16.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 1.0 damage to Poteitou]
+[23Mar2024 14:19:17.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 1.0 damage to Poteitou]
+[23Mar2024 14:19:18.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 1.0 damage to Poteitou]
+[23Mar2024 14:19:26.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 11.0 damage to Poteitou]
+[23Mar2024 14:19:30.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: %1$s was shot by %2$s
+[23Mar2024 14:19:30.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 11.0 damage to Poteitou]
+[23Mar2024 14:19:55.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou was roasted in dragon's breath
+[23Mar2024 14:19:55.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 111.0 damage to Poteitou]
+[23Mar2024 14:20:05.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou drowned
+[23Mar2024 14:20:05.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 111.0 damage to Poteitou]
+[23Mar2024 14:20:17.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou was struck by lightning
+[23Mar2024 14:20:17.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Applied 111.0 damage to Poteitou]
+[23Mar2024 14:20:21.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Set own game mode to Creative Mode]
+[23Mar2024 14:20:24.403] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
+[23Mar2024 14:20:24.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
+[23Mar2024 14:20:24.406] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
+[23Mar2024 14:21:13.038] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/172.27.180.11:54594] logged in with entity id 1481 at (-56.5, 76.24313553468023, -82.5)
+[23Mar2024 14:21:13.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
+[23Mar2024 14:21:13.420] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
+[23Mar2024 14:21:13.421] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
+[23Mar2024 14:21:13.846] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:21:14.848] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:21:14.849] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Poteitou (6eeffee0-b83e-359c-8608-d681ed61beea) successfully connected to voice chat
+[23Mar2024 14:21:26.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
+[23Mar2024 14:21:26.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
+[23Mar2024 14:21:26.553] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
+[23Mar2024 14:21:57.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/172.27.180.11:54669] logged in with entity id 1563 at (-65.80714362834175, 70.9931370059502, -91.2458386071193)
+[23Mar2024 14:21:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
+[23Mar2024 14:21:57.567] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
+[23Mar2024 14:21:57.568] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
+[23Mar2024 14:21:57.839] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:21:58.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:21:58.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Poteitou (6eeffee0-b83e-359c-8608-d681ed61beea) successfully connected to voice chat
+[23Mar2024 14:22:24.903] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Disconnected
+[23Mar2024 14:22:24.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
+[23Mar2024 14:22:24.904] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Poteitou
+[23Mar2024 14:22:37.473] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Poteitou[/172.27.180.11:54724] logged in with entity id 2092 at (106.975556588409, 70.0, -165.38874456976376)
+[23Mar2024 14:22:37.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou joined the game
+[23Mar2024 14:22:37.820] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Poteitou (18)
+[23Mar2024 14:22:37.820] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Poteitou
+[23Mar2024 14:22:38.085] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:22:39.093] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeffee0-b83e-359c-8608-d681ed61beea
+[23Mar2024 14:22:39.094] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Poteitou (6eeffee0-b83e-359c-8608-d681ed61beea) successfully connected to voice chat
+[23Mar2024 14:22:40.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Poteitou: Stopping the server]
+[23Mar2024 14:22:40.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Mar2024 14:22:40.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Mar2024 14:22:40.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Poteitou lost connection: Server closed
+[23Mar2024 14:22:40.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Poteitou left the game
+[23Mar2024 14:22:40.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Mar2024 14:22:41.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Mar2024 14:22:41.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Mar2024 14:22:41.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Mar2024 14:22:41.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Mar2024 14:22:41.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Mar2024 14:22:41.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Mar2024 14:22:41.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Mar2024 14:22:41.205] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped

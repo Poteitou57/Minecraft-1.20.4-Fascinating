@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2024-03-23 13:00:10 +0000",
+      "minecraft:river": "2024-03-23 14:17:33 +0000",
       "minecraft:plains": "2024-03-23 03:00:44 +0000"
     },
     "done": false
@@ -51,6 +52,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2024-03-23 13:12:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-03-23 14:17:49 +0000"
     },
     "done": true
   },
